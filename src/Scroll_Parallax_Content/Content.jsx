@@ -13,19 +13,19 @@ const Content = () => {
 
     const imgData = [
         {
-            img: "src/Images/img1.jpg",
+            img: "../src/Images/img1.jpg",
             yImg: "-7vh",
             yDiv: "-12vh",
             yScale: 1.5
         },
         {
-            img: "src/Images/img3.jpg",
+            img: "../src/Images/img3.jpg",
             yImg: "0vh",
             yDiv: "0vh",
             yScale: 2
         },
         {
-            img: "src/Images/img2.jpg",
+            img: "../src/Images/img2.jpg",
             yImg: "5vh",
             yDiv: "12vh",
             yScale: 1.5
