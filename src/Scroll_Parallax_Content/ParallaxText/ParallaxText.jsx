@@ -10,7 +10,7 @@ const ParallaxText = () => {
         target: ref,
         offset: ["center center", "end start"]
     })
-    const text = "scroll down";
+    const text = "scroll_down";
 
     return (
         <div ref={ref} className="scrollParallaxText">
