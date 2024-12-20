@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: 15px;
+  border-left: 4px solid black;
+}
+::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-left: 4px solid rgb(210 210 210);
+}
+body {
+  background: rgb(210 210 210);
+}
