@@ -2,7 +2,9 @@ import "./Content.css"
 import { useScroll } from "framer-motion"
 import { useRef } from 'react';
 import { ParallaxImages } from "./ParallaxImages";
-
+import img1 from "../Images/img1.jpg";
+import img2 from "../Images/img2.jpg";
+import img3 from "../Images/img3.jpg";
 
 const Content = () => {
     const ref = useRef();
@@ -13,19 +15,19 @@ const Content = () => {
 
     const imgData = [
         {
-            img: "../src/Images/img1.jpg",
+            img: img1,
             yImg: "-7vh",
             yDiv: "-12vh",
             yScale: 1.5
         },
         {
-            img: "../src/Images/img3.jpg",
+            img: img3,
             yImg: "0vh",
             yDiv: "0vh",
             yScale: 2
         },
         {
-            img: "../src/Images/img2.jpg",
+            img: img2,
             yImg: "5vh",
             yDiv: "12vh",
             yScale: 1.5
