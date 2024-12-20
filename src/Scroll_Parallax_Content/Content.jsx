@@ -1,10 +1,11 @@
 import "./Content.css"
 import { useScroll } from "framer-motion"
 import { useRef } from 'react';
-import { ParallaxImages } from "./ParallaxImages";
+import ParallaxImages from "./ParallaxImages/ParallaxImages";
 import img1 from "../Images/img1.jpg";
 import img2 from "../Images/img2.jpg";
 import img3 from "../Images/img3.jpg";
+import ParallaxText from "./ParallaxText/ParallaxText";
 
 const Content = () => {
     const ref = useRef();
@@ -36,10 +37,7 @@ const Content = () => {
 
     return (
         <>
-            <div style={{
-                width: "100%",
-                height: "100vh"
-            }} />
+            <ParallaxText />
 
             <div ref={ref} className="scrollParallax">
 

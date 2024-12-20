@@ -1,7 +1,8 @@
 /* eslint-disable react/prop-types */
 import { motion, useTransform } from "framer-motion";
+import "./ParallaxImages.css";
 
-export const ParallaxImages = ({ scrollYProgress, img, yImg, yDiv, yScale, index }) => {
+const ParallaxImages = ({ scrollYProgress, img, yImg, yDiv, yScale, index }) => {
 
     const startingValueImg = index === 0 ? "4vh" : index === 2 ? "-10vh" : "0vh";
     const startingValueDiv = index === 0 ? "10vh" : index === 2 ? "-10vh" : "0vh";
@@ -32,3 +33,4 @@ export const ParallaxImages = ({ scrollYProgress, img, yImg, yDiv, yScale, index
     );
 
 }
+export default ParallaxImages;

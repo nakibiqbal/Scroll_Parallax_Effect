@@ -13,70 +13,9 @@
   justify-content: center;
   align-items: center;
 }
-.parallaxImg {
-  position: relative;
-  overflow: hidden;
-}
-.parallaxImg:nth-child(1) {
-  width: 17vw;
-  height: 23vw;
-  margin-right: -3vw;
-  z-index: 9;
-  margin-top: 17vw;
-}
 
-.parallaxImg:nth-child(2) {
-  width: 26vw;
-  height: 32vw;
-}
-.parallaxImg:nth-child(3) {
-  width: 17vw;
-  height: 23vw;
-  margin-left: -3vw;
-  margin-top: -17vw;
-  z-index: 9;
-}
-
-.parallaxImg img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-@media (max-width: 768px) {
-  .parallaxImg:nth-child(1) {
-    width: 28vw;
-    height: 40vw;
-  }
-  .parallaxImg:nth-child(2) {
-    width: 40vw;
-    height: 55vw;
-  }
-  .parallaxImg:nth-child(3) {
-    width: 28vw;
-    height: 40vw;
-  }
-}
 @media (max-width: 500px) {
   .scrollParallaxImages {
     flex-direction: column;
-  }
-  .parallaxImg:nth-child(1) {
-    width: 50vw;
-    height: 70vw;
-    margin-right: -40vw;
-    margin-top: 0;
-    margin-bottom: -30vw;
-  }
-
-  .parallaxImg:nth-child(2) {
-    width: 80vw;
-    height: 120vw;
-  }
-  .parallaxImg:nth-child(3) {
-    width: 50vw;
-    height: 70vw;
-    margin-left: -40vw;
-    margin-top: -30vw;
-    margin-bottom: 0;
   }
 }
